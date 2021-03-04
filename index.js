@@ -11,9 +11,10 @@ let getPokemon = new Promise((resolve, reject) => {
     })
 })
 
-getPokemon.then(pokemon => {
+getPokemon
+.then(pokemon => {
     let pokeArray = pokemon.split('\n');
-    let results = pokeArray.map(pokemon => {
+    pokeArray.map(pokemon => {
         fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
         .then(body => body.json())
         .then(json => {
