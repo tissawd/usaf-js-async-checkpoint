@@ -1,3 +1,7 @@
 charizard
 pikachu
 bulbasaur
+vulpix
+mew
+mewtwo
+onyx

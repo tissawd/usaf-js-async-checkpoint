@@ -23,6 +23,7 @@ getPokemon
 
             console.log(`${json.name}: ${typesArray}`)
         })
+        .catch(err => console.log('something went wrong', err))
     })
 })
 
