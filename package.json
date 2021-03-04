@@ -1,0 +1,22 @@
+{
+  "name": "usaf-js-async-checkpoint",
+  "version": "1.0.0",
+  "description": "Reads list of pokemon from given input and returns their type using pokeapi.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tissawd/usaf-js-async-checkpoint.git"
+  },
+  "author": "Derek Tissaw and Jeremiah Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tissawd/usaf-js-async-checkpoint/issues"
+  },
+  "homepage": "https://github.com/tissawd/usaf-js-async-checkpoint#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
